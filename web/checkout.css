@@ -1,0 +1,260 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+/* 
+    Created on : 25 Jun 2023, 11:28:37 pm
+    Author     : MySystem
+*/
+
+body {
+    font-family: 'Grandstander', cursive;
+}
+
+/* NAVIGATION Start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDE2DC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    padding: 0 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 150px;
+    /* Adjust the width as needed */
+}
+
+.logo h1 {
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    margin-top: 0px;
+    /* Add some space between the logo and the text */
+    text-align: center;
+    /* Center the text */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.search-container a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.search-container a:hover {
+    color: #555;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.search-bar input[type="search"] {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.search-bar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+.search-bar img {
+    width: 20px;
+}
+
+.search-bar i {
+    font-size: 16px;
+}
+
+.cart button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cart a {
+    color: #EDE2DC;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cart img {
+    width: 20px;
+}
+
+/* NAVIGATION END */
+
+
+/* CONTENT START */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 10px;
+}
+
+.card {
+    max-width: 400px;
+    width: 100%;
+    background-color: #EDE2DC;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin between the cards */
+}
+
+
+.card-body {
+    padding: 20px;
+}
+
+.checkout-form {
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.checkout-form label {
+    font-weight: bold;
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.checkout-form button:hover {
+    background-color: #45a049;
+}
+.inputBox h2, .inputBox h4{
+    text-align: center;
+}
+.submit-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+
+/* CONTENT END */
+
+
+/* FOOTER START */
+footer {
+    background-color: #EDE2DC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-content {
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-content p a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-content p a:hover {
+    background-color: #EDC8B8;
+    border-radius: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* FOOTER END */
+

@@ -1,0 +1,405 @@
+body {
+    font-family: 'Grandstander', cursive;
+}
+
+/* NAVIGATION Start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDE2DC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    padding: 0 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 150px;
+}
+
+.logo h1 {
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* NAVIGATION END */
+
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.top-content h1 {
+    margin: 0;
+}
+
+.top-content input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+.register-product-button {
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header input[type="text"],
+    header button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input[type="search"] {
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.search-bar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+.search-bar img {
+    width: 20px;
+}
+
+.search-bar i {
+    font-size: 16px;
+}
+
+.nav-links li:hover {
+    background-color: #EDC8B8;
+    border-radius: 30px;
+    transform: scale(1.02);
+}
+
+/* Register staff Button Styles */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 8% auto;
+    padding: 20px;
+    border: 3px solid #24252a;
+    width: 40%;
+}
+
+.popup-content label {
+    display: inline-block;
+    width: 250px;
+}
+
+/*input[type="email" ] {
+    padding: 1px 2px;
+    border-radius: 5px;
+}*/
+
+input[type="text" ] {
+    padding: 1px 2px;
+    border-radius: 5px;
+}
+
+input.submit {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #24252a;
+    background-color: #4CAF50;
+    cursor: pointer;
+
+}
+
+input.submit :hover {
+    background-color: #f72b2b;
+}
+
+select {
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* TOP CONTENT END */
+/* Table Styles */
+
+div.table tbody tr td .product-image img {
+    width: 300px; /* Increase the width as needed */
+    height: 200px; /* Increase the height as needed */
+}
+
+
+div.table {
+    background-color: white;
+}
+
+#table img {
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.table {
+    display: grid;
+    place-items: center;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+
+th {
+    text-align: left;
+    background-color: #f2f2f2;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+input[type=number] {
+    width: 70px;
+}
+
+#table th,
+#table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#table button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+#table img {
+    width: 20px;
+    height: 20px;
+}
+
+#table th,
+#table td {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    #table th:nth-child(n+6),
+    #table td:nth-child(n+6) {
+        display: none;
+    }
+}
+
+
+
+/* MODAL START HERE - The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 9% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: rgb(0, 213, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* .delete-button :hover{
+    background-color: #24252a;
+    color: white;
+} */
+
+.cancel-button {
+    background-color: #ccc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cancel-button-modal:hover {
+    background-color: #bbb;
+}
+
+/* FOOTER START */
+footer {
+    background-color: #EDE2DC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-content {
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-content p a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-content p a:hover {
+    background-color: #EDC8B8;
+    border-radius: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* FOOTER END */

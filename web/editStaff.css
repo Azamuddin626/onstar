@@ -1,0 +1,183 @@
+body {
+  font-family: 'Grandstander', cursive;
+}
+
+/* NAVIGATION Start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EDE2DC;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  padding: 0 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo img {
+  margin-top: 15px;
+  width: 150px;
+}
+
+.logo h1 {
+  font-size: 18px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Edit Staff Information Form */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #555555;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+  max-width: 100%;
+      border-radius: 30px;
+
+}
+
+.profile-info h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #DEC9BE;
+}
+
+.form-table {
+  width: 100%;
+}
+
+.form-table td {
+  padding: 10px 0;
+}
+
+.form-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  color: #DEC9BE;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+  background-color: #EDE2DC;
+  color: #333;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #EDC8B8;
+}
+
+.edit-button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EDE2DC;
+  color: black;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button a {
+  text-decoration: none;
+  color: black;
+}
+
+/* FOOTER START */
+footer {
+  background-color: #EDE2DC;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.footer-content {
+  max-width: 300px;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-content p a {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-content p a:hover {
+  background-color: #EDC8B8;
+  border-radius: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}

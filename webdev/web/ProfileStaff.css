@@ -1,0 +1,220 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 Jun 2023, 11:23:49 am
+    Author     : MySystem
+*/
+
+body {
+    font-family: 'Grandstander', cursive;
+}
+
+/* NAVIGATION Start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDE2DC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    padding: 0 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 150px;
+    /* Adjust the width as needed */
+}
+
+.logo h1 {
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    margin-top: 0px;
+    /* Add some space between the logo and the text */
+    text-align: center;
+    /* Center the text */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* NAVIGATION END */
+
+
+/* CONTENT START */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+/* CONTENT START*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    background: #555555;
+
+}
+
+/* Additional CSS styles for the profile information page */
+.profile-info {
+    padding: 20px;
+    color: #dec9be;
+}
+
+.profile-info h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group button {
+    background-color: #ede2dc;
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #EDE2DC;
+}
+
+.form-group button:active {
+    background-color: #EDE2DC;
+}
+
+.edit-button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ede2dc;
+    color: black;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit-button a{
+    text-decoration: none;
+    color: black;
+}
+
+/* CONTENT END */
+
+
+/* FOOTER START */
+footer {
+    background-color: #EDE2DC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-content p a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-content p a:hover {
+    background-color: #EDC8B8;
+    border-radius: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* FOOTER END */

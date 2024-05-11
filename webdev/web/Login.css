@@ -1,0 +1,97 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 Jun 2023, 11:57:37 pm
+    Author     : MySystem
+*/
+
+
+body {
+    background-image: url(All_Images/ImagesIcon/background.jpg);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 200px;
+    height: auto;
+}
+
+.form {
+    position: relative;
+    width: 300%;
+    animation: slideIn 0.5s ease-in-out;
+    margin: 50px auto;
+    max-width: 300px;
+    padding: 50px; /* Adjust the padding as needed */
+    background-color: transparent; /* Adjust the background color and transparency as needed */
+    border-radius: 1px;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    backdrop-filter: blur(4px); /* Adjust the blur intensity as needed */
+    border: 1px solid #ccc;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form .box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    box-sizing: border-box; /* Add this line */
+}
+
+.form #submit {
+    background-color: #410404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form #submit:hover {
+    background-color: #45a049;
+}
+
+/* Add the following CSS rules for radio buttons */
+.form input[type="radio"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.form input[type="radio"]:last-child {
+    margin-right: 0;
+}
+
+

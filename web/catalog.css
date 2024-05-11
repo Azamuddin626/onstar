@@ -1,0 +1,269 @@
+
+body {
+    font-family: 'Grandstander', cursive;
+}
+
+/* NAVIGATION Start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDE2DC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    padding: 0 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 150px;
+    /* Adjust the width as needed */
+}
+
+.logo h1 {
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    margin-top: 0px;
+    /* Add some space between the logo and the text */
+    text-align: center;
+    /* Center the text */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cart button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cart a {
+    color: #EDE2DC;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cart img {
+    width: 20px;
+}
+/* NAVIGATION END */
+
+
+/* CONTENT START */
+
+/* CONTENT END */
+
+
+/* FOOTER START */
+footer {
+    background-color: #EDE2DC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-content {
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+body {
+    font-family: 'Grandstander', cursive;
+}
+
+/* NAVIGATION Start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDE2DC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    padding: 0 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 150px;
+    /* Adjust the width as needed */
+}
+
+.logo h1 {
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    margin-top: 0px;
+    /* Add some space between the logo and the text */
+    text-align: center;
+    /* Center the text */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cart button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cart a {
+    color: #EDE2DC;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cart img {
+    width: 20px;
+}
+/* NAVIGATION END */
+
+
+/* CONTENT START */
+
+/* CONTENT END */
+
+
+/* FOOTER START */
+footer {
+    background-color: #EDE2DC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-content {
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-content p a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-content p a:hover {
+    background-color: #EDC8B8;
+    border-radius: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* FOOTER END */
+
+.footer-content p a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-content p a:hover {
+    background-color: #EDC8B8;
+    border-radius: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* FOOTER END */
